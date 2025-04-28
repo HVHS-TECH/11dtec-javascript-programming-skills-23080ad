@@ -1,5 +1,5 @@
 /*****************************
- Name of task: Intro to JS and setting up your .js file.
+ Name of task: Variables.
  Author: Angus. 
  Date: Week 1 term 2 2025.   
  purpose: Practice task.
@@ -8,8 +8,7 @@
  console.log("adarsh");
  
  //Variables
- let pigs =5;
- console.log("You have",pigs,"pigs in your farm.");
+ console.log("")
  
  /*****************************
  Main code
