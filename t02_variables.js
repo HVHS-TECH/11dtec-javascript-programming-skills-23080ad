@@ -8,8 +8,8 @@
  console.log("adarsh");
  
  //Variables
- let pigs =3;
- console.log(""pigs);
+ let pigs =5;
+ console.log("You have",pigs,"pigs in your farm.");
  
  /*****************************
  Main code
