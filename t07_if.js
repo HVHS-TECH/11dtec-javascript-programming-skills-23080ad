@@ -11,6 +11,7 @@ let yourAge = prompt("how old are you");
 /*****************************
 Main code
 *****************************/
+console.log("Running t01_introduction.js");
 if (yourAge => 70) {
     alert = ("you are perfectly aged");
 } else {
