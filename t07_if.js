@@ -6,19 +6,17 @@
  ****************************/
 
 //Variables
-let yourAge = 7;
-let question = prompt("how old are you");
+let yourAge = 70;
 
 /*****************************
 Main code
 *****************************/
-
-if (yourAge >= 70); {
-    alert("you are perfectly aged!");
-}else {
-
-}
-
+prompt("how old are you");
+if (yourAge >= 70) {
+    alert = ("you are perfectly aged");
+  } else {
+    alert = ("you are too old!");
+  }
 
 
 /*****************************
