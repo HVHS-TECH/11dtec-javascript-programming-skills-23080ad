@@ -6,12 +6,16 @@
  ****************************/
 
 //Variables
+let age = 0;
 
 
 /*****************************
 Main code
 *****************************/
 prompt("how old are you?")
+if (age == 70);
+alert("you are perfectly aged!")
+
 
 /*****************************
 Functions 
