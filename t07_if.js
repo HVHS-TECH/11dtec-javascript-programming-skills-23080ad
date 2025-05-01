@@ -11,11 +11,11 @@ let yourAge = prompt("how old are you");
 /*****************************
 Main code
 *****************************/
-alert(if (yourAge > 70) {
+if (yourAge > 70) {
     alert = ("you are perfectly aged");
 } else {
     alert = ("you are too old!");
-})
+}
 
 
 /*****************************
