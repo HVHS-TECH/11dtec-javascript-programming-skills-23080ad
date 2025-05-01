@@ -6,15 +6,19 @@
  ****************************/
 
 //Variables
-let age = 0;
+let yourAge = 7;
 
 
 /*****************************
 Main code
 *****************************/
 prompt("how old are you?")
-if (age == 70);
-alert("you are perfectly aged!")
+if (yourAge >= 70); {
+    alert("you are perfectly aged!");
+} else {
+    alert("you are too old")
+}
+
 
 
 /*****************************
