@@ -7,12 +7,12 @@
 
 //Variables
 let yourAge = 7;
-
+let question = prompt("how old are you");
 
 /*****************************
 Main code
 *****************************/
-prompt("how old are you?")
+
 if (yourAge >= 70); {
     alert("you are perfectly aged!");
 } else {
