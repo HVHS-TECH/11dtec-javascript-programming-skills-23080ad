@@ -1,3 +1,11 @@
+/*****************************
+ Name of task: maths.
+ Author: Angus. 
+ Date: Week 1 term 2 2025.   
+ purpose: Practice task.
+ ****************************/
+
+
 console.log("Task 4 - Debugging")
 
 // Set up the size of the page

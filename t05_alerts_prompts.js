@@ -1,5 +1,5 @@
 /*****************************
- Name of task: Variables.
+ Name of task: alerts and prompts.
  Author: Angus. 
  Date: Week 1 term 2 2025.   
  purpose: Practice task.
