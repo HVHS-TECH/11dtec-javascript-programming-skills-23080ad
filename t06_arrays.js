@@ -1,5 +1,5 @@
 /*****************************
- Name of task: arrays.
+ Name of task: Variables.
  Author: Angus. 
  Date: Week 1 term 2 2025.   
  purpose: Practice task.
