@@ -8,7 +8,11 @@
 
  
  //Variables
- 
+ let numbA = prompt("give me a number!");
+ let numbB = prompt("give me a number!");
+ let numbC = prompt("give me a number!");
+ let numbD = prompt("give me a number!");
+ let numbE = prompt("give me a number!");
  
  /*****************************
  Main code
