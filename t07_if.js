@@ -22,7 +22,7 @@ if (yourAge >= 70) {
 
 
 
-alert("Hi "+ namePerson +". I predict you were born in" + birthDate + "")
+alert("Hi "+ namePerson +". I predict you were born in " + birthDate + "\n")
 /*****************************
 Functions 
 *****************************/
