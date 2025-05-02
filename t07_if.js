@@ -24,7 +24,7 @@ if (yourAge >= 70) {
 
 
 alert("Hi "+ namePerson +". I predict you were born in " + birthDate + "\nyour pocket money is " + yourCash + " dollars")
-if (yourCash <= 15){
+if (yourCash <= 3){
     alert("you cant afford a chocolate bar")
 } else {
     alert("you can afford a chocolate bar")
