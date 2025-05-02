@@ -14,7 +14,7 @@ Main code
 if (yourAge >= 70) {
     alert("you are perfectly aged")
 } else {
-    alert("you are too old!")
+    alert("you are too young!")
 }
 /*****************************
 Functions 
