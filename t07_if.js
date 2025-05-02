@@ -7,7 +7,8 @@
 
 //Variables
 let yourAge = prompt("how old are you");
-let namePerson = Dave;
+let namePerson = "Dave";
+let birthDate = "2009";
 /*****************************
 Main code
 *****************************/
@@ -21,7 +22,7 @@ if (yourAge >= 70) {
 
 
 
-alert("Hi "+ namePerson +"I predict you were born in" + your age)
+alert("Hi "+ namePerson +". I predict you were born in" + birthDate + "")
 /*****************************
 Functions 
 *****************************/
