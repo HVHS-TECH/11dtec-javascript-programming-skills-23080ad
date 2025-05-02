@@ -12,12 +12,10 @@ let yourAge = prompt("how old are you");
 Main code
 *****************************/
 if (yourAge >= 70) {
-    alert = ("you are perfectly aged");
+    alert("you are perfectly aged")
 } else {
-    alert = ("you are too old!");
+    alert("you are too old!")
 }
-
-
 /*****************************
 Functions 
 *****************************/
