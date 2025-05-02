@@ -7,17 +7,21 @@
 
 //Variables
 let yourAge = prompt("how old are you");
-
+let namePerson = Dave;
 /*****************************
 Main code
 *****************************/
 if (yourAge >= 70) {
     alert("you are perfectly aged!")
-} else if (yourAge = 50){
-    alert("you are half a century old!")
+} else if (yourAge = 50) {
+    alert("you are old!")
 } else {
     alert("you are worthless to me!")
 }
+
+
+
+alert("Hi "+ namePerson +"I predict you were born in" + your age)
 /*****************************
 Functions 
 *****************************/
