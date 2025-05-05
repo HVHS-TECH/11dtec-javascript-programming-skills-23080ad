@@ -1,26 +1,32 @@
 /*****************************
- Name of task: Intro to JS and setting up your .js file.
+ Name of task: For loops.
  Author: Angus. 
- Date: Week 1 term 2 2025.   
+ Date: Week 2 term 2 2025.   
  purpose: Practice task.
  ****************************/
 
 
- 
- //Variables
- let numbA = prompt("give me a number!");
- let numbB = prompt("give me a number!");
- let numbC = prompt("give me a number!");
- let numbD = prompt("give me a number!");
- let numbE = prompt("give me a number!");
- 
- /*****************************
- Main code
- *****************************/
- console.log("Running t01_introduction.js");
- 
- 
- 
- /***************************** 
- Functions 
- *****************************/
+
+//Variables
+let numberAsk = prompt("give me a number!");
+let totalValue = 0;
+/*****************************
+Main code
+*****************************/
+for (count = 0; count < 6; count++) {
+    console.log(count);
+    let numberAsk = prompt("give me a number!");
+    let totalValue = (total + numberAsk);
+}
+
+
+
+
+
+
+
+alert(total)
+
+/*****************************
+Functions 
+*****************************/
