@@ -9,19 +9,19 @@
 
 //Variables
 let numberAskA = 0;
-var total;
-var convert;
+var total = 0;
+var convert = 0;
 /*****************************
 Main code
 *****************************/
 console.log("Running t08_for_loop.js");
-for (count = 0; count < 6; count++) {
+for (count = 0; count < 5; count++) {
     let numberAskA = prompt("give me a number!");
     numberAskA = Number(numberAskA);
-    convert = total + numberAskA;
+    convert += numberAskA;
     console.log(convert);
 }
-alert(total)
+alert(convert)
 
 
 /*****************************
