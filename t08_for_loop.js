@@ -9,13 +9,15 @@
 
 //Variables
 let numberAsk = prompt("give me a number!");
-
+var total;
 /*****************************
 Main code
 *****************************/
+console.log("Running t08_for_loop.js");
 for (count = 0; count< 4; count++) {
     let numberAsk = prompt("give me a number!");
-    let total = total + numberAsk; 
+    total = total + numberAsk; 
+    console.log(total);
 }
 alert(total)
 
