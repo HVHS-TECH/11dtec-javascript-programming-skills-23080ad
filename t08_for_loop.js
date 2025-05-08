@@ -15,7 +15,6 @@ Main code
 *****************************/
 for (count = 0; count< 4; count++) {
     let numberAsk = prompt("give me a number!");
-    numberAsk = Number (numberAsk);
     let totalValue = numberAsk;
     alert(numberAsk)
 }
