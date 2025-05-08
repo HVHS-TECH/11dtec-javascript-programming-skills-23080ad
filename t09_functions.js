@@ -13,7 +13,8 @@
  Main code
  *****************************/
  console.log("Running t09_functions.js");
- 
+ askUserAge ();
+ askUserName ();
  
  
  
