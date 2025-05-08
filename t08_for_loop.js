@@ -14,7 +14,7 @@ var total;
 Main code
 *****************************/
 console.log("Running t08_for_loop.js");
-for (count = 0; count < 4; count++) {
+for (count = 0; count < 5; count++) {
     let numberAsk = prompt("give me a number!");
     total = total + numberAsk;
     console.log(total);
