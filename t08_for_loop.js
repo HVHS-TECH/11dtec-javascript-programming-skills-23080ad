@@ -18,7 +18,7 @@ console.log("Running t08_for_loop.js");
 for (count = 0; count < 6; count++) {
     let numberAskA = prompt("give me a number!");
     numberAskA = Number(numberAskA);
-    total = total + numberAskA;
+    total = numberAskA + total;
     console.log(total);
     //convert = total;
 }
