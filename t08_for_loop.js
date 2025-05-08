@@ -11,6 +11,7 @@
 let numberAskA = 0;
 let numberAskB = 0;
 var total;
+var convert;
 /*****************************
 Main code
 *****************************/
@@ -21,6 +22,7 @@ for (count = 0; count < 6; count++) {
     numberAskB = Number(numberAskB);
     total = numberAskB + numberAskA;
     console.log(total);
+    convert = total;
 }
 alert(total)
 
