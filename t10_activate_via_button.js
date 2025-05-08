@@ -28,7 +28,7 @@ function askUserMoney() {
     if (userMoney >= 6) {
         alert("You could buy a chocolate bar.")
     } else {
-        alert("You couldnt buy a chocolate bar.")
+        alert("You can't buy a chocolate bar, sorry.")
     }
 }
 function start() {
