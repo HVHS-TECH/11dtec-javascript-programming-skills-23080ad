@@ -13,9 +13,9 @@
 Main code
 *****************************/
 console.log("Running t09_functions.js");
-askUserAge();
-askUserName();
-askUserMoney();
+userName = askUserAge();
+userAge = askUserName();
+userMoney = askUserMoney();
 
 /***************************** 
 Functions 
