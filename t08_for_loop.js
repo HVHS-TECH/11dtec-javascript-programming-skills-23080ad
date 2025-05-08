@@ -13,7 +13,7 @@ let totalValue = 0;
 /*****************************
 Main code
 *****************************/
-for (count = 0; count < 6; count++) {
+for (count = 0; count< 6; count++) {
     console.log(count);
     let numberAsk = prompt("give me a number!");
     let totalValue = totalValue + numberAsk;
