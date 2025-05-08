@@ -3,6 +3,8 @@
  Author: Angus. 
  Date: Week 2 term 2 2025.   
  purpose: Practice task.
+ This task doesnt need to have any code since I could technically use task 10 to test for expected values.
+ however, I wanted to use this task as the testing one instead just for convinience sake.
  ****************************/
 
 
