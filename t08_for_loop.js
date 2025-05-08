@@ -17,14 +17,8 @@ for (count = 0; count< 4; count++) {
     let numberAsk = prompt("give me a number!");
     let total = total + numberAsk; 
 }
-alert(numberAsk)
-
-
-
-
-
-
 alert(total)
+
 
 /*****************************
 Functions 
