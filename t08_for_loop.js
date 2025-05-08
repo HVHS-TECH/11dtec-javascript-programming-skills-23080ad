@@ -9,15 +9,15 @@
 
 //Variables
 let numberAsk = prompt("give me a number!");
-let totalValue = 0;
+
 /*****************************
 Main code
 *****************************/
 for (count = 0; count< 4; count++) {
     let numberAsk = prompt("give me a number!");
-    let totalValue = numberAsk;   
+    let total = total + numberAsk; 
 }
-alert(totalValue)
+alert(numberAsk)
 
 
 
