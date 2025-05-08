@@ -9,7 +9,6 @@
 
 //Variables
 let numberAskA = 0;
-let numberAskB = 0;
 var total;
 var convert;
 /*****************************
@@ -19,10 +18,9 @@ console.log("Running t08_for_loop.js");
 for (count = 0; count < 6; count++) {
     let numberAskA = prompt("give me a number!");
     numberAskA = Number(numberAskA);
-    numberAskB = Number(numberAskB);
-    total = numberAskB + numberAskA;
+    total = total + numberAskA;
     console.log(total);
-    convert = total;
+    //convert = total;
 }
 alert(total)
 
