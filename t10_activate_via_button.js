@@ -13,9 +13,6 @@
 Main code
 *****************************/
 console.log("Running t09_functions.js");
-userName = askUserAge();
-userAge = askUserName();
-userMoney = askUserMoney();
 
 /***************************** 
 Functions 
@@ -33,4 +30,9 @@ function askUserMoney() {
     } else {
         alert("you couldnt buy a chocolate bar")
     }
+}
+function start() {
+    userName = askUserAge();
+    userAge = askUserName();
+    userMoney = askUserMoney();
 }
