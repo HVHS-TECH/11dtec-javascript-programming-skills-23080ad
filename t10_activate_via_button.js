@@ -24,7 +24,7 @@ function askUserAge() {
     userAge = prompt("How old are you?");
 }
 function askUserMoney() {
-    userMoney = prompt("how many dollars do you have?");
+    userMoney = prompt("How many dollars do you have?");
     if (userMoney >= 6) {
         alert("you could buy a chocolate bar.")
     } else {
