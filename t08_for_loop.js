@@ -9,6 +9,8 @@
 
 //Variables
 var total;
+let numberAskA = 0;
+let numberAskB = 0;
 /*****************************
 Main code
 *****************************/
