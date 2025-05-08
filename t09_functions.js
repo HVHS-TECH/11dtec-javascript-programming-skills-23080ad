@@ -20,6 +20,9 @@
  /***************************** 
  Functions 
  *****************************/
+function askUserName () {
+    userName = prompt("What is your name?");
+}
 function askUserAge () {
-    
+    userAge = prompt("How old are you?");
 }
