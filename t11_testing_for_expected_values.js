@@ -1,5 +1,5 @@
 /*****************************
- Name of task: activate via buttons.
+ Name of task: testing for expected values.
  Author: Angus. 
  Date: Week 2 term 2 2025.   
  purpose: Practice task.
@@ -12,7 +12,7 @@
 /*****************************
 Main code
 *****************************/
-console.log("Running t10_activate_via_buttons.js");
+console.log("Running t09_testing_for_expected_values.js");
 
 /***************************** 
 Functions 
