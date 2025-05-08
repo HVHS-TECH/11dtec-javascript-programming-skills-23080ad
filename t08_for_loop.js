@@ -16,7 +16,7 @@ Main code
 for (count = 0; count < 6; count++) {
     console.log(count);
     let numberAsk = prompt("give me a number!");
-    let totalValue = total + numberAsk;
+    let totalValue = totalValue + numberAsk;
 }
 
 
