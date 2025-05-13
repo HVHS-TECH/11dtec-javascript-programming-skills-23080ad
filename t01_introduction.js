@@ -5,7 +5,6 @@
  purpose: Practice task.
  ****************************/
 console.log("Running t01_introduction.js");
-console.log("adarsh is gay");
 
 //Variables
 
