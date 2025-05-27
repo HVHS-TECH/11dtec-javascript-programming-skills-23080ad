@@ -9,7 +9,7 @@ console.log("Running t13_validation");
 //Variables
 var userName ;
 let userNameIsinvalid = true;
-let errorMessage = ("invalid! \n");
+let errorMessage = ("Hello ");
 /*****************************
 Main code
 *****************************/
@@ -17,7 +17,7 @@ Main code
 while (userNameIsinvalid){
     userName = prompt(errorMessage + "what is youre name?")
         if (!isNaN(userName) || userName == "" || userName == null || userName == " ") {
-            
+            let errorMessage = ("invalid! \n");
             
         } else {
             userNameIsinvalid = false;
