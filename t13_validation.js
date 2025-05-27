@@ -9,7 +9,7 @@ console.log("Running t13_validation");
 //Variables
 var userName ;
 let userNameIsinvalid = true;
-let errorMessage = ("Hello ");
+var errorMessage = ("Hello ");
 /*****************************
 Main code
 *****************************/
