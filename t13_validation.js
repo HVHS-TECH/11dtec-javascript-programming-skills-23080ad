@@ -17,7 +17,7 @@ Main code
 while (userNameIsinvalid) {
     userName = prompt(errorMessage + "what is youre name?")
     if (!isNaN(userName) || userName == "" || userName == null || userName == " ") {
-        let errorMessage = "invalid! \n";
+        errorMessage = "invalid! \n";
 
     } else {
         userNameIsinvalid = false;
