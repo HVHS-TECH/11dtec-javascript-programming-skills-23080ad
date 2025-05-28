@@ -21,6 +21,7 @@ while (userNameIsinvalid) {
 
     } else {
         userNameIsinvalid = false;
+        alert("Welcome, " + userName + "!")
     }
 }
 
