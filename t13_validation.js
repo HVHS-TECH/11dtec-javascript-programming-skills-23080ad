@@ -7,9 +7,16 @@
 console.log("Running t13_validation");
 
 //Variables
+
+//Name variables
 var userName;
 let userNameIsinvalid = true;
+
+//
 var errorMessage = "Hello, ";
+
+//Age variables
+let ageIsInvalid = true;
 /*****************************
 Main code
 *****************************/
@@ -24,6 +31,16 @@ while (userNameIsinvalid) {
         alert("Welcome, " + userName + "!")
     }
 }
+//asking for age
+while (userNameIsinvalid) {
+    userName = prompt(errorMessage + "what is youre name?")
+    if (!isNaN(userName) || userName == "" || userName == null || userName == " ") {
+        errorMessage = "invalid! \n";
+
+    } else {
+        userNameIsinvalid = false;
+        alert("Welcome, " + userName + "!")
+    }
 
 
 
