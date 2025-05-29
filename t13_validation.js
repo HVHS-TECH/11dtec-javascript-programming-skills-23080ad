@@ -10,41 +10,57 @@ console.log("Running t13_validation");
 
 //Name variables
 var userName;
-let userNameIsinvalid = true;
+var userNameIsInvalid = true;
 
 //global error message
 var errorMessage = "Hello, ";
 
 //Age variables
 var userAge;
-let ageIsInvalid = true;
+var ageIsInvalid = true;
+
+//Money variables
+var userCash;
+var moneyIsInvalid = true;
+var minCash = 1;
+var maxCash = 5;
 /*****************************
 Main code
 *****************************/
 //asking for name
 while (userNameIsInvalid) {
-    userName = prompt(errorMessage + "what is youre name?")
+    userName = prompt(errorMessage + "what is youre name?");
     if (!isNaN(userName) || userName == "" || userName == null || userName == " ") {
         errorMessage = "invalid! \n";
 
     } else {
+        alert("Welcome, " + userName + "!");
         userNameIsInvalid = false;
-        alert("Welcome, " + userName + "!")
     }
 }
+
 //asking for age
 while (ageIsInvalid) {
-    userAge = prompt(errorMessage + "what is youre name?")
-    if (isNaN(userAge) || userAge == "" || userAge == null || userAge == " ") {
+    userAge = prompt(errorMessage + "How old are you?");
+    if (isNaN(userAge) || userAge == "" || userAge == null || userAge == " "){
         errorMessage = "invalid! \n";
 
     } else {
+        alert("You are, " + userAge + "!");
         ageIsInvalid = false;
-        alert("Welcome, " + userAge + "!")
     }
+}
 
-
-
+//ask for pocket money
+while (moneyIsInvalid) {
+    userAge = prompt(errorMessage + "How much pocket money do you have?");
+    if (isNaN(userCash) || userCash == "" || userCash == null || userCash == " " || userCash < minCash || userCash > maxCash) {
+        errorMessage = "invalid! \nYou must have 1-5 dollars! \n";
+    } else {
+        alert("You have, " + userCash + " dollars!");
+        moneyIsInvalid = false;
+    }
+}
 /***************************** 
 Functions 
 *****************************/
