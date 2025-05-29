@@ -35,12 +35,12 @@ while (userNameIsInvalid) {
 //asking for age
 while (ageIsInvalid) {
     userAge = prompt(errorMessage + "what is youre name?")
-    if (isNaN(userAge) || userAge == "" || userAge == null || userName == " ") {
+    if (isNaN(userAge) || userAge == "" || userAge == null || userAge == " ") {
         errorMessage = "invalid! \n";
 
     } else {
         ageIsInvalid = false;
-        alert("Welcome, " + userName + "!")
+        alert("Welcome, " + userAge + "!")
     }
 
 
