@@ -53,7 +53,7 @@ while (ageIsInvalid) {
 
 //ask for pocket money
 while (moneyIsInvalid) {
-    userAge = prompt(errorMessage + "How much pocket money do you have?");
+    userCash = prompt(errorMessage + "How much pocket money do you have?");
     if (isNaN(userCash) || userCash == "" || userCash == null || userCash == " " || userCash < minCash || userCash > maxCash) {
         errorMessage = "invalid! \nYou must have 1-5 dollars! \n";
     } else {
