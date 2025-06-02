@@ -24,6 +24,8 @@ var userCash;
 var moneyIsInvalid = true;
 var minCash = 1;
 var maxCash = 5;
+
+
 /*****************************
 Main code
 *****************************/

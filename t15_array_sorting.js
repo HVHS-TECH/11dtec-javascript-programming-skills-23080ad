@@ -24,8 +24,15 @@ var ageIsInvalid = true;
 var userCash = 0;
 var moneyIsInvalid = true;
 const MINCASH = 1;
-const MAXCASH = 5;
+const MAXCASH = 10;
 
+//Arrays
+let chocolatesArray = ["Mars bar", "Moro bar", "King  Size Crunchy", "Dairy Milk Block", "Lindt Block"];
+
+let priceArray = ["$2", "$2.50", "$3", "$6", "$7"]
+
+//Menu
+let avaliableChoc = "Here is a list of every avaliable chocolate bar and their prices"
 
 /*****************************
 Main code
@@ -55,16 +62,24 @@ while (ageIsInvalid) {
     }
 }
 
+//Show avaliable chocolate bars
+for (i = 0; i < chocolatesArray.length; i++){
+    avaliableChoc = avaliableChoc + "\nchocolate "+ i + " is "+ chocolatesArray[i];
+}
+alert(avaliableChoc)
+
 //ask for pocket money
 while (moneyIsInvalid) {
     userCash = prompt(errorMessage + "How much pocket money do you have?");
     if (isNaN(userCash) || userCash == "" || userCash == null || userCash == " " || userCash < MINCASH || userCash > MAXCASH) {
-        errorMessage = "invalid! \nYou must have 1-5 dollars! \n";
+        errorMessage = "invalid! \nYou must have 1-10 dollars! \n";
     } else {
         alert("You have, " + userCash + " dollars!");
         moneyIsInvalid = false;
     }
 }
+
+//Calcualte the most expensive chocolate the user canb buy
 
 
 /***************************** 
