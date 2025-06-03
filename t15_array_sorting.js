@@ -83,12 +83,11 @@ while (moneyIsInvalid) {
 }
 
 //Calcualte the most expensive chocolate the user can buy
-for (i = 0; i < chocolatesArray.length; i++ || userCash <= priceArray[i]){
-   
-
+for (i = 0; i < chocolatesArray.length; i++ && userCash <= priceArray[i]){
+   avaliableChoc = priceArray[i]
 }
-avaliableChoc = priceArray
-alert("the most exspensive chocolate you can afford is the" +  + ". \nThis chocolate costs $" + priceArray[i])
+
+alert("the most exspensive chocolate you can afford is the" + avaliableChoc + ". \nThis chocolate costs $" + priceArray[i])
 /***************************** 
 Functions 
 *****************************/
