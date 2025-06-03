@@ -19,6 +19,8 @@ var errorMessage = "Hello, ";
 //Age variables
 var userAge;
 var ageIsInvalid = true;
+const MINAGE = 1;
+const MAXAGE = 130;
 
 //Money variables
 var userCash = 0;
@@ -53,7 +55,7 @@ while (userNameIsInvalid) {
 //asking for age
 while (ageIsInvalid) {
     userAge = prompt(errorMessage + "How old are you?");
-    if (isNaN(userAge) || userAge == "" || userAge == null || userAge == " "){
+    if (isNaN(userAge) || userAge == "" || userAge == null || userAge == " " || userAge < MINAGE || userAge > MAXAGE){
         errorMessage = "invalid! \n";
 
     } else {
