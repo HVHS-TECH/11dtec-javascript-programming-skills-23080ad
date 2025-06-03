@@ -36,6 +36,7 @@ let priceArray = [2, 2.50, 3, 6, 7]
 //Menu
 let avaliableChoc = "Here is a list of every avaliable chocolate bar and their prices"
 let chocPrice = "this is the most exspensive chocolate you can buy"
+
 /*****************************
 Main code
 *****************************/
@@ -83,7 +84,7 @@ while (moneyIsInvalid) {
 
 //Calcualte the most expensive chocolate the user can buy
 for (i = 0; i < chocolatesArray.length; i++){
-    userCash = avaliableChoc + "\nchocolate "+ i + " is "+ chocolatesArray[i];
+    userCash >= priceArray[i];
 }
 
 /***************************** 
