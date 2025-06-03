@@ -87,7 +87,7 @@ for (i = 0; i < chocolatesArray.length; i++ && userCash <= priceArray){
    avaliableChoc = priceArray[i]
 }
 
-alert("the most exspensive chocolate you can afford is the" + avaliableChoc + ". \nThis chocolate costs $" + priceArray[i])
+alert(chocPrice + avaliableChoc + ". \nThis chocolate costs $" + priceArray[i])
 /***************************** 
 Functions 
 *****************************/
