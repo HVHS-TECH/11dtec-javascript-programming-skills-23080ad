@@ -31,7 +31,7 @@ const MAXCASH = 10;
 //Arrays
 let chocolatesArray = ["Mars bar", "Moro bar", "King  Size Crunchy", "Dairy Milk Block", "Lindt Block"];
 
-let priceArray = ["$2", "$2.50", "$3", "$6", "$7"]
+let priceArray = [2, 2.50, 3, 6, 7]
 
 //Menu
 let avaliableChoc = "Here is a list of every avaliable chocolate bar and their prices"
