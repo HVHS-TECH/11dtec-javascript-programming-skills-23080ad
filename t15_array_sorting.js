@@ -86,7 +86,8 @@ while (moneyIsInvalid) {
 for (i = 0; i < chocolatesArray.length; i++){
     userCash <= priceArray[i];
 }
-alert()
+avaliableChoc = priceArray
+alert("the most exspensive chocolate you can afford is the" + avaliableChoc + ". \nThis chocolate costs $" + priceArray[i])
 /***************************** 
 Functions 
 *****************************/
