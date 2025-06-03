@@ -81,7 +81,7 @@ while (moneyIsInvalid) {
     }
 }
 
-//Calcualte the most expensive chocolate the user canb buy
+//Calcualte the most expensive chocolate the user can buy
 
 
 /***************************** 
