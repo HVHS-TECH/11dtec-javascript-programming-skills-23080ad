@@ -35,7 +35,6 @@ let priceArray = [2, 2.50, 3, 6, 7]
 
 //Menu
 let avaliableChoc = "Here is a list of every avaliable chocolate bar and their prices"
-let chocPrice = "this is the most exspensive chocolate you can buy"
 
 /*****************************
 Main code
@@ -87,7 +86,7 @@ for (i = 0; i < priceArray.length; i++ && userCash <= priceArray[i]){
    chocolatesArray = priceArray[i]
 }
 
-alert(chocPrice + chocolatesArray[i] + " This chocolate costs $" + priceArray[i])
+alert("This is the most exspensive chocolate you can buy " + chocolatesArray[i] + " This chocolate costs $" + priceArray[i])
 /***************************** 
 Functions 
 *****************************/
