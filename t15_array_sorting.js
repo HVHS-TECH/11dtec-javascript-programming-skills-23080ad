@@ -84,7 +84,7 @@ while (moneyIsInvalid) {
 
 //Calcualte the most expensive chocolate the user can buy
 for (i = 0; i < priceArray.length; i++ && userCash <= priceArray[i]){
-   chocolatesArray = priceArray
+   chocolatesArray = priceArray[i]
 }
 
 alert(chocPrice + chocolatesArray[i] + " This chocolate costs $" + priceArray[i])
