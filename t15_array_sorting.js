@@ -55,7 +55,7 @@ while (userNameIsInvalid) {
 //asking for age
 while (ageIsInvalid) {
     userAge = prompt(errorMessage + "How old are you?");
-    if (isNaN(userAge) || userAge == "" || userAge == null || userAge == " " || userAge < MINAGE || userAge > MAXAGE){
+    if (isNaN(userAge) || userAge == "" || userAge == null || userAge == " " || userAge < MINAGE || userAge > MAXAGE) {
         errorMessage = "invalid! \n";
 
     } else {
@@ -65,8 +65,8 @@ while (ageIsInvalid) {
 }
 
 //Show avaliable chocolate bars
-for (i = 0; i < chocolatesArray.length; i++){
-    avaliableChoc = avaliableChoc + "\nchocolate "+ i + " is "+ chocolatesArray[i];
+for (i = 0; i < chocolatesArray.length; i++) {
+    avaliableChoc = avaliableChoc + "\nchocolate " + i + " is " + chocolatesArray[i];
 }
 alert(avaliableChoc)
 
@@ -82,8 +82,8 @@ while (moneyIsInvalid) {
 }
 
 //Calcualte the most expensive chocolate the user can buy
-for (i = 0; i < priceArray.length; i++ && userCash <= priceArray[i]){
-   chocolatesArray = priceArray[i];
+for (i = 0; i < priceArray.length; i++ && userCash <= priceArray[i]) {
+    chocolatesArray = priceArray;
 }
 alert("This is the most exspensive chocolate you can buy " + chocolatesArray[i] + " This chocolate costs $" + priceArray[i]);
 
