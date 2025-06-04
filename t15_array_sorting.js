@@ -87,7 +87,7 @@ for (i = 0; i < chocolatesArray.length; i++ && userCash <= priceArray[i]){
    chocolatesArray = priceArray
 }
 
-alert(chocPrice +  + " This chocolate costs $" + priceArray[i])
+alert(chocPrice + chocolatesArray[i] + " This chocolate costs $" + priceArray[i])
 /***************************** 
 Functions 
 *****************************/
