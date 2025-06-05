@@ -33,6 +33,10 @@ let chocolatesArray = ["Mars bar", "Moro bar", "King  Size Crunchy", "Dairy Milk
 
 let priceArray = [2, 2.50, 3, 6, 7]
 
+let topCostChoc;
+
+let topChocPrice;
+
 //Menu
 let avaliableChoc = "Here is a list of every avaliable chocolate bar and their prices"
 
@@ -82,11 +86,15 @@ while (moneyIsInvalid) {
 }
 
 //Calcualte the most expensive chocolate the user can buy
-for (i = 0; i < priceArray.length; i++ && userCash <= priceArray[i]) {
-    
+for (i = 0; i < priceArray.length; i++) {
+    if (userCash <= priceArray[i]) {
+        topCostChoc = chocolatesArray[i];
+        topChocPrice = priceArray[i];
+        break;
+    }
 }
-chocolatesArray = priceArray;
-alert("This is the most exspensive chocolate you can buy is " + chocolatesArray[i] + " This chocolate costs $" + priceArray[i]);
+
+alert("This is the most exspensive chocolate you can buy is " + topCostChoc + " This chocolate costs $" + topChocPrice);
 
 /***************************** 
 Functions 
